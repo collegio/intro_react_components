@@ -1,4 +1,4 @@
-class FreeAgentTracker extends React.Component {
+class ActivityTracker extends React.Component {
     
     render() {
         return (
@@ -9,4 +9,4 @@ class FreeAgentTracker extends React.Component {
     }
 }
 
-ReactDOM.render(<FreeAgentTracker />, document.getElementById('app'));
+ReactDOM.render(<ActivityTracker />, document.getElementById('app'));

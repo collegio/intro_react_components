@@ -8,16 +8,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var FreeAgentTracker = function (_React$Component) {
-    _inherits(FreeAgentTracker, _React$Component);
+var ActivityTracker = function (_React$Component) {
+    _inherits(ActivityTracker, _React$Component);
 
-    function FreeAgentTracker() {
-        _classCallCheck(this, FreeAgentTracker);
+    function ActivityTracker() {
+        _classCallCheck(this, ActivityTracker);
 
-        return _possibleConstructorReturn(this, (FreeAgentTracker.__proto__ || Object.getPrototypeOf(FreeAgentTracker)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (ActivityTracker.__proto__ || Object.getPrototypeOf(ActivityTracker)).apply(this, arguments));
     }
 
-    _createClass(FreeAgentTracker, [{
+    _createClass(ActivityTracker, [{
         key: 'render',
         value: function render() {
             return React.createElement(
@@ -32,7 +32,7 @@ var FreeAgentTracker = function (_React$Component) {
         }
     }]);
 
-    return FreeAgentTracker;
+    return ActivityTracker;
 }(React.Component);
 
-ReactDOM.render(React.createElement(FreeAgentTracker, null), document.getElementById('app'));
+ReactDOM.render(React.createElement(ActivityTracker, null), document.getElementById('app'));
